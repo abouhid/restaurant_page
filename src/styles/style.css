@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  object-fit: unset;  
+}
+
+.menuContainer {
+margin-left: 3%;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 6%;
+}
+
+span {
+  width: -webkit-fill-available;
+  background-color: aliceblue;
+  cursor: pointer;
+  border: 1px solid black;
+  text-align: center;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40%;
+  list-style-type: none;
+  padding: 0;
+
+}
