@@ -12,12 +12,13 @@ const infoPage = () => {
   const addContent = () => {
     menuImg.src = menuImage;
     mainTitle.textContent = 'Contact:';
-    infoText.innerHTML = 'Adress: Av. Getúlio Vargas, 353 -Juiz de Fora' + '.<br />';
-    infoText.innerHTML += 'Phone number: (32) 99946-9825' + '.<br />';
-    infoText.innerHTML += 'Email: cheiroverde@example.com' + '.<br />';
-    infoText.innerHTML += 'Website: www.cheiroverde.com';
+    infoText.innerHTML = `Adress: Av. Getúlio Vargas, 353 -Juiz de Fora 
+    Phone number: (32) 99946-9825;
+     Email: cheiroverde@example.com
+    Website: www.cheiroverde.com`;
     container.classList.add('menuContainer');
     infoText.classList.add('info');
+    mainTitle.classList.add('title');
   };
 
   const appendElements = () => {

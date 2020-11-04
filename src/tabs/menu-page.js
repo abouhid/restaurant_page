@@ -1,4 +1,4 @@
-import menuImage from '../images/menu.jpg';
+import menuImage from '../images/menu-img.jpeg';
 
 
 const menuPage = () => {
@@ -7,12 +7,13 @@ const menuPage = () => {
   const container = document.createElement('div');
   const menuImg = new Image();
   const menuList = document.createElement('ul');
-  const menuArr = ['Sandwich', '$8', 'Tacos', '$15', 'Hot-dog', '4$', 'Fries', '7$'];
+  const menuArr = ['Salad', '$8', 'French Fries', '$15', 'Spaghetti', '$14', 'Soup', '$7', 'Pizza', '$14', 'Lasagna', '$13', 'Burguer', '$11'];
 
   const addContent = () => {
     menuImg.src = menuImage;
     menuTitle.textContent = 'Menu:';
     container.classList.add('menuContainer');
+    menuTitle.classList.add('title');
   };
 
   const appendList = () => {
