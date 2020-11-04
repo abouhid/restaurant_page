@@ -2,7 +2,7 @@
 
 # Restaurant_page
 
-> This project consists of developing a restaurant page using the recently aquired knowledge in webpack.
+> This project consists of developing a restaurant page using the recently acquired knowledge in webpack.
 
 ![screenshot](./screenshot.png)
 
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-> [LiveDemoLink](https://chef-restaurant.netlify.app/) 
+> [LiveDemoLink](https://rawcdn.githack.com/abouhid/restaurant_page/313e3027f4a047693ca67dceb2831460c4a2c8b4/dist/index.html) 
 
 ## Author
 
