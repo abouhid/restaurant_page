@@ -1,0 +1,76 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 36%;
+  object-fit: unset;
+  border: 4px white solid;
+  border-radius: 10px;
+}
+
+.mainText {
+  font-size: 25px;
+  padding: 10px;
+  color: white;
+  text-shadow: 2px 1px black;
+}
+
+.menuContainer {
+  margin-left: 3%;
+  background-color: rgba(53, 199, 40, 0.812);
+  padding: 1%;
+  border: 4px white solid;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 6%;
+  background-image: url(https://thumbs.dreamstime.com/b/seamless-vegetables-pattern-green-background-vegetarian-food-43296007.jpg);
+  height: -webkit-fill-available;
+  min-height: fit-content;
+}
+
+span {
+  width: -webkit-fill-available;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid green;
+  text-align: center;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  list-style-type: none;
+  font-size: 26px;
+  padding: 10px;
+  color: white;
+  text-shadow: 2px 1px black;
+}
+
+.info {
+  font-size: 18px;
+  padding: 10px;
+  color: white;
+  text-shadow: 2px 1px black;
+  line-height: 2em;
+  font-weight: 700;
+  max-width: 60%;
+}
+
+.active {
+  background-color: rgba(53, 199, 40, 0.412);
+}
+
+.title {
+  color: white;
+  text-shadow: 2px 1px black;
+  border-bottom: 1px solid;
+  font-size: 35px;
+}
